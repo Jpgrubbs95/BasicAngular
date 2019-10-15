@@ -1,0 +1,15 @@
+<table>
+    <!--Headers: Not repeated-->
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    <!--ngFor seems to be what is used nowadays, I think ngRepeat was old-->
+    <!-- "users" here must match the name we gave to our data array in the component.ts file-->
+    <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+    </tr>
+</table>
