@@ -6,7 +6,7 @@
         <th>Email</th>
     </tr>
     <!--ngFor seems to be what is used nowadays, I think ngRepeat was old-->
-    <!-- "users" here must match the name we gave to our data array in the component.ts file-->
+    <!-- "users" here must match the name we gave to our data array in the display.component.ts file-->
     <tr *ngFor="let user of users">
         <td>{{ user.id }}</td>
         <td>{{ user.name }}</td>

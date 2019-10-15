@@ -11,7 +11,7 @@ import { User } from '../user';
 })
 export class DisplayComponent implements OnInit {
 
-  //Our array of data. Empty until we get a response from the service
+  //Our array of data. Empty until we get a response from the service. This is what we will ngFor loop through in the template
   users: User[];
 
   //Again, constructor injection just lets us use an instance of it in any methods below
